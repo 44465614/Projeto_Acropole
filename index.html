@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="bank.ico" type="image/x-icon">
     <title>Acrópole Digital</title>
@@ -10,30 +12,91 @@
 
 <body>
     <header>
-        <div class="nav-bar">
-            <div>
-
+        <nav>
+            <a class="logo" href="/">Acrópole Digital</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-            <div>
-                <nav>
-                    <ul>
-                        <li><a>Home</a></li>
-                        <li><a href="">Contato</a></li>
-                        <li><a href="">Serviços</a></li>
-                        <li><a href="">Conheça os Planos</a></li>
-                        <li><a href="">Blog</a></li>
-                    </ul>
-                   
-                </nav>
-                <h1>Quem somos</h1>
-                   <p>Somos uma agência de marketing de Performance que faz serviços digitais full service, com mais de 10 anos de experiência no mercado.</p>
-                 <p>Nossa equipe é composta por profissionais altamente qualificados e dedicados, com vasta experiência em diferentes áreas do marketing digital, incluindo SEO, mídias sociais, tráfego pago, criação de conteúdo e muito mais.</p>
-                 <p>Nós entendemos as necessidades dos nossos clientes e trabalhamos para proporcionar soluções personalizadas e eficazes.
-
-</p>
+            <ul class="nav-list">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Contato</a></li>
+                <li><a href="/">Serviços</a></a></li>
+                <li><a href="/">Planos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section>
+                <div class="titulo">
+                    <div>
+                        <h1>MARKETING DIGITAL</h1>
+                        <h2>INTELIGÊNCIA E ESTRATÉGIA</h2>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="text">
+                    <div>
+                        <h2>QUEM SOMOS?</h2>
+                        <h3>Acrópole Soluções Digitais LTDA</h3>
+                        <p>
+                            Especialistas em estratégias digitais
+                            sob medida para portais de notícia e turismo.
+                            Mais do que uma agência, somos
+                            parceiros na sua transformação digital
+                        </p>
+                        <h3>Obejtivo:</h3>
+                        <p>
+                            Impulsionar o alcance e o impacto de
+                            veículos jornalísticos através da
+                            tecnologia, SEO e performance.
+                            Ser referência em
+                            transformação digital de
+                            empresas, especialmente
+                            no turismo nacional.
+                        </p>
+                    </div> 
+           
+                    <form class="contact-form">
+        <h2 class="form-title">Formulário de Contato</h2>
+        
+        <div class="form-group">
+            <label for="name">1 - Qual é o seu nome?</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email">2 - Informe seu Endereço de e-mail?</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="phone">3 - Conta ai qual seu telefone/whatsapp?</label>
+            <input type="tel" id="phone" name="phone" value="+5521991141234" required>
+        </div>
+           
+        <div class="form-group">
+            <label>4 - Por qual serviço está procurando?</label>
+            <div class="services-grid">
+                <label class="service-option"><input type="checkbox" name="service" value="SEO"> SEO</label>
+                <label class="service-option"><input type="checkbox" name="service" value="Criação de identidade Visual"> Criação de identidade Visual</label>
+                <label class="service-option"><input type="checkbox" name="service" value="trafego pago">trafego pago </label>
+                <label class="service-option"><input type="checkbox" name="service" value="edicao de videos">edicao de videos</label>
+                <label class="service-option"><input type="checkbox" name="service" value="gestao de redes socias ">gestao de redes socias </label>
+                <label class="service-option"><input type="checkbox" name="service" value="design"> design</label>
+                <label class="service-option"><input type="checkbox" name="service" value="Outros"> Outros</label>
             </div>
         </div>
-    </header>
+        
+        <button type="submit" class="submit-btn">Finalizar</button>
+                </div>
+            </section>
+        </article>
+    </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
